@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0%;
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #12062b 0%, #6924e1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 15px 10px;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0.1)  ;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.form{
+    padding: 10px;
+}
+
+.form-campo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;      
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input{
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-control{
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    position: static;
+    padding-top: 10px;
+}
+
+.form-text{
+    display: flex;
+    position: relative; 
+    flex-direction: column;
+}
+
+
+
+.main-select{
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    position: absolute;
+    padding: 2px;
+}
+
+
+
+.button{
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    margin: 1px 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(135deg, #160932 0%, #6924e1 100%);
+}
+
+.button:hover{
+    background: linear-gradient(-135deg, #160932 0%, #6924e1 100%);
+    
+
+}
+
+.text {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 5px; 
+}
+
+.form-text textarea{
+    padding: 5px;
+}
+
